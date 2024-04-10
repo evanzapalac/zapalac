@@ -1,0 +1,36 @@
+/*positioning styles*/
+.common{
+    position:absolute;
+    border: 5px solid blue;
+    background-color: lightblue;
+}
+.bottom{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    font-style: italic;
+    font-size: small;
+    background-color: lightgoldenrodyellow;
+}
+.top{
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    position: fixed;
+    text-align: center;
+    z-index: 1;
+}
+.content{
+    top: 75px;
+    left: 0px;
+    right: 0px;
+    height: 100%;
+    text-align: center;
+}
+.nav{
+    position: relative;
+    float: right;
+    z-index: 1;
+}
